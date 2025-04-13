@@ -4,12 +4,6 @@ An experimental composition translating the mathematical structure of spiral gal
 
 ![Spiral Galaxy](assets/spiral-galaxy-banner.jpg)
 
-## Audio Examples
-
-Listen to the composition evolution:
-- [Original Version (Pre-optimization)](https://soundcloud.com/evgeny-kalachihin/mcp_bach_milkywayspiral_experi/s-MiV1jP0UQVO?si=a370782985714a71a3f2333bfe744b3b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
-- [Final Version (Post-optimization)](https://soundcloud.com/evgeny-kalachihin/mcp_bach_milkywayspiral_expe-1/s-xKfL2xo4PWW?si=55b638758fa0467da9cc60ae467fe05c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
-
 ## Project Overview
 
 This project explores the intersection of astronomy, mathematics, and classical music by creating a direct mapping between the mathematical properties of spiral galaxies and the contrapuntal structure of Bach's canons. It leverages Ableton Live's MCP for programmatic control of the music creation process.
@@ -38,50 +32,62 @@ Each instrument represents a specific element of the spiral galaxy:
 - **Star Clusters (Vibraphone)**: Concentrated star formations
 - **Cosmic Background (Pad)**: The diffuse interstellar material
 
+## Mathematical Foundation
+
+The composition is built on the mathematical properties of logarithmic spirals (r = a·e^(b·θ)), which model spiral galaxies. Key mathematical elements include:
+
+- **Logarithmic Growth**: Note patterns follow the exponential growth of spiral arms
+- **Golden Ratio**: Structure and transitions use φ ≈ 1.618 for natural proportions
+- **Density Wave Theory**: Musical intensity reflects density variations in spiral arms
+
+For detailed mathematical analysis, see the [docs/math-analysis.md](docs/math-analysis.md) file.
+
+## Optimization Process
+
+The implementation underwent significant optimization to improve its efficiency and musical cohesion:
+
+- **Code Efficiency**: Reduced code size by ~80% through modular functions and pattern encapsulation
+- **Unified Structure**: Replaced separate clips with a single 96-bar composition using time offsets
+- **Batch Processing**: Implemented batch processing of notes to prevent API limitations
+- **Musical Integration**: Preserved Bach's canonical structure while creating seamless transitions
+
+The final optimized version maintains mathematical precision while significantly improving performance. For detailed comparison, see [docs/optimization-guide.md](docs/optimization-guide.md).
+
+## Audio Examples
+
+Listen to the composition evolution:
+- [Original Version (Pre-optimization)](https://soundcloud.com/evgeny-kalachihin/mcp_bach_milkywayspiral_experi/s-MiV1jP0UQVO?si=a370782985714a71a3f2333bfe744b3b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
+- [Final Version (Post-optimization)](https://soundcloud.com/evgeny-kalachihin/mcp_bach_milkywayspiral_expe-1/s-xKfL2xo4PWW?si=55b638758fa0467da9cc60ae467fe05c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
+
 ## Installation & Usage
 
 ### Prerequisites
 
 - Ableton Live 12 (Trial version is sufficient)
-- Ableton Live standard orchestral instrument packs:
-  - Orchestral Brass
-  - Orchestral Mallets
-  - Orchestral Strings
-  - Orchestral Woodwinds
+- Ableton orchestral instrument packs (Brass, Mallets, Strings, Woodwinds)
 - Claude for Desktop app
 - Ableton MCP integration installed (see [ahujasid/ableton-mcp](https://github.com/ahujasid/ableton-mcp))
 
 ### Setup
 
-1. Install the Ableton MCP Remote Script:
-   - Download the `AbletonMCP_Remote_Script/__init__.py` file from [ahujasid/ableton-mcp](https://github.com/ahujasid/ableton-mcp)
-   - Create a folder called 'AbletonMCP' in Ableton's MIDI Remote Scripts directory and place the __init__.py file inside
-   - In Ableton Live, go to Settings/Preferences → Link, Tempo & MIDI
-   - Select "AbletonMCP" in the Control Surface dropdown
-   - Set Input and Output to "None"
-
-2. Configure Claude Desktop:
-   - Go to Claude > Settings > Developer > Edit Config > claude_desktop_config.json
-   - Include the following configuration:
-   ```json
-   {
-       "mcpServers": {
-           "AbletonMCP": {
-               "command": "uvx",
-               "args": [
-                   "ableton-mcp"
-               ]
-           }
-       }
-   }
-   ```
-
+1. Install the Ableton MCP Remote Script (see [docs/ableton-mcp-integration.md](docs/ableton-mcp-integration.md))
+2. Configure Claude Desktop for MCP integration
 3. Start Ableton Live
+4. Clone this repository
+5. Execute the composition by copying `src/implementation.js` into Claude
 
-4. Clone this repository to access the implementation code
+For detailed setup instructions, see the [docs/ableton-mcp-integration.md](docs/ableton-mcp-integration.md) file.
 
-5. Execute the composition:
-   - Open Claude Desktop
-   - Copy the contents of `src/implementation.js` from this repository
-   - Paste it into Claude and ask it to execute the code
-   - The composition will be generated automatically in Ableton Live
+## Project Structure
+
+- **src/**: Contains the optimized implementation code
+- **docs/**: Detailed documentation on various aspects of the project
+  - **math-analysis.md**: Mathematical foundations of the composition
+  - **optimization-guide.md**: Process and benefits of code optimization
+  - **ableton-mcp-integration.md**: Guide to Ableton MCP integration
+  - **orchestral-packs.md**: Required orchestral instruments
+  - **audio-comparison.md**: Comparison between original and optimized versions
+
+## License
+
+MIT License - See [LICENSE.md](LICENSE.md) for details
