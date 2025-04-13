@@ -773,3 +773,176 @@ function getOuterSpiralCulminationNotes() {
     {"mute": false, "pitch": 91, "duration": 1, "velocity": 120, "start_time": 30},
     {"mute": false, "pitch": 96, "duration": 1, "velocity": 120, "start_time": 30.5},
     {"mute": false, "pitch": 91, "duration": 0.5, "velocity": 110, "start_time": 31.5}
+  ];
+}
+
+// --- STAR CLUSTERS (VIBRAPHONE) NOTE PATTERNS ---
+
+// Exposition section for Star Clusters
+function getStarClustersExpositionNotes() {
+  return [
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 65, "start_time": 3.5},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 65, "start_time": 3.75},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 70, "start_time": 7.5},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 70, "start_time": 7.75},
+    {"mute": false, "pitch": 62, "duration": 0.5, "velocity": 65, "start_time": 11.5},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 65, "start_time": 11.75},
+    {"mute": false, "pitch": 69, "duration": 0.5, "velocity": 70, "start_time": 15.5},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 70, "start_time": 15.75},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 65, "start_time": 19.5},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 65, "start_time": 19.75},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 70, "start_time": 23.5},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 70, "start_time": 23.75},
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 75, "start_time": 27.5},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 75, "start_time": 27.75},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 75, "start_time": 28},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 75, "start_time": 28.25},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 80, "start_time": 28.5},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 80, "start_time": 28.75},
+    {"mute": false, "pitch": 84, "duration": 1, "velocity": 85, "start_time": 29}
+  ];
+}
+
+// Development section for Star Clusters
+function getStarClustersDevelopmentNotes() {
+  return [
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 75, "start_time": 0},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 75, "start_time": 1},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 75, "start_time": 2},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 75, "start_time": 3},
+    {"mute": false, "pitch": 62, "duration": 0.5, "velocity": 75, "start_time": 4},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 75, "start_time": 5},
+    {"mute": false, "pitch": 69, "duration": 0.5, "velocity": 75, "start_time": 6},
+    {"mute": false, "pitch": 81, "duration": 0.5, "velocity": 75, "start_time": 7},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 80, "start_time": 8},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 80, "start_time": 9},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 80, "start_time": 10},
+    {"mute": false, "pitch": 83, "duration": 0.5, "velocity": 80, "start_time": 11},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 80, "start_time": 12},
+    {"mute": false, "pitch": 77, "duration": 0.5, "velocity": 80, "start_time": 13},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 80, "start_time": 14},
+    {"mute": false, "pitch": 84, "duration": 0.5, "velocity": 80, "start_time": 15},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 85, "start_time": 16},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 85, "start_time": 16.5},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 85, "start_time": 17},
+    {"mute": false, "pitch": 86, "duration": 0.5, "velocity": 85, "start_time": 17.5},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 85, "start_time": 18},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 85, "start_time": 18.5},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 85, "start_time": 19},
+    {"mute": false, "pitch": 86, "duration": 0.5, "velocity": 85, "start_time": 19.5},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 85, "start_time": 20},
+    {"mute": false, "pitch": 77, "duration": 0.5, "velocity": 85, "start_time": 20.5},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 85, "start_time": 21},
+    {"mute": false, "pitch": 84, "duration": 0.5, "velocity": 85, "start_time": 21.5},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 85, "start_time": 22},
+    {"mute": false, "pitch": 77, "duration": 0.5, "velocity": 85, "start_time": 22.5},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 85, "start_time": 23},
+    {"mute": false, "pitch": 84, "duration": 0.5, "velocity": 85, "start_time": 23.5},
+    {"mute": false, "pitch": 64, "duration": 0.25, "velocity": 90, "start_time": 24},
+    {"mute": false, "pitch": 67, "duration": 0.25, "velocity": 90, "start_time": 24.25},
+    {"mute": false, "pitch": 71, "duration": 0.25, "velocity": 90, "start_time": 24.5},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 90, "start_time": 24.75},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 90, "start_time": 25},
+    {"mute": false, "pitch": 83, "duration": 0.25, "velocity": 90, "start_time": 25.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 90, "start_time": 25.5},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 90, "start_time": 25.75},
+    {"mute": false, "pitch": 71, "duration": 0.25, "velocity": 90, "start_time": 26},
+    {"mute": false, "pitch": 67, "duration": 0.25, "velocity": 90, "start_time": 26.25},
+    {"mute": false, "pitch": 64, "duration": 0.25, "velocity": 90, "start_time": 26.5},
+    {"mute": false, "pitch": 60, "duration": 0.25, "velocity": 100, "start_time": 28},
+    {"mute": false, "pitch": 64, "duration": 0.25, "velocity": 100, "start_time": 28.25},
+    {"mute": false, "pitch": 67, "duration": 0.25, "velocity": 100, "start_time": 28.5},
+    {"mute": false, "pitch": 72, "duration": 0.25, "velocity": 100, "start_time": 28.75},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 100, "start_time": 29},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 100, "start_time": 29.25},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 100, "start_time": 29.5},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 100, "start_time": 29.75},
+    {"mute": false, "pitch": 91, "duration": 2, "velocity": 100, "start_time": 30}
+  ];
+}
+
+// Culmination section for Star Clusters
+function getStarClustersCulminationNotes() {
+  return [
+    {"mute": false, "pitch": 84, "duration": 2, "velocity": 90, "start_time": 2},
+    {"mute": false, "pitch": 88, "duration": 2, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 91, "duration": 2, "velocity": 90, "start_time": 6},
+    {"mute": false, "pitch": 86, "duration": 2, "velocity": 90, "start_time": 10},
+    {"mute": false, "pitch": 89, "duration": 2, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 93, "duration": 2, "velocity": 90, "start_time": 14},
+    {"mute": false, "pitch": 88, "duration": 2, "velocity": 95, "start_time": 18},
+    {"mute": false, "pitch": 91, "duration": 2, "velocity": 95, "start_time": 20},
+    {"mute": false, "pitch": 95, "duration": 2, "velocity": 95, "start_time": 22},
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 100, "start_time": 24},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 100, "start_time": 24.5},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 100, "start_time": 25},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 100, "start_time": 25.5},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 100, "start_time": 26},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 100, "start_time": 26.5},
+    {"mute": false, "pitch": 84, "duration": 0.5, "velocity": 100, "start_time": 27},
+    {"mute": false, "pitch": 88, "duration": 0.5, "velocity": 100, "start_time": 27.5},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 110, "start_time": 28},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 110, "start_time": 28.125},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 110, "start_time": 28.25},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 110, "start_time": 28.375},
+    {"mute": false, "pitch": 91, "duration": 0.125, "velocity": 110, "start_time": 28.5},
+    {"mute": false, "pitch": 95, "duration": 0.125, "velocity": 110, "start_time": 28.625},
+    {"mute": false, "pitch": 96, "duration": 0.125, "velocity": 110, "start_time": 28.75},
+    {"mute": false, "pitch": 95, "duration": 0.125, "velocity": 110, "start_time": 28.875},
+    {"mute": false, "pitch": 91, "duration": 0.125, "velocity": 110, "start_time": 29},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 110, "start_time": 29.125},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 110, "start_time": 29.25},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 110, "start_time": 29.375},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 110, "start_time": 29.5},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 110, "start_time": 29.625},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 110, "start_time": 29.75},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 110, "start_time": 29.875},
+    {"mute": false, "pitch": 84, "duration": 2, "velocity": 120, "start_time": 30},
+    {"mute": false, "pitch": 91, "duration": 2, "velocity": 120, "start_time": 30},
+    {"mute": false, "pitch": 96, "duration": 2, "velocity": 120, "start_time": 30}
+  ];
+}
+
+// --- COSMIC BACKGROUND (PAD) NOTE PATTERNS ---
+
+// Exposition section for Cosmic Background
+function getCosmicBackgroundExpositionNotes() {
+  return [
+    {"mute": false, "pitch": 36, "duration": 16, "velocity": 50, "start_time": 0},
+    {"mute": false, "pitch": 43, "duration": 16, "velocity": 45, "start_time": 0},
+    {"mute": false, "pitch": 48, "duration": 16, "velocity": 40, "start_time": 0},
+    {"mute": false, "pitch": 38, "duration": 16, "velocity": 55, "start_time": 16},
+    {"mute": false, "pitch": 45, "duration": 16, "velocity": 50, "start_time": 16},
+    {"mute": false, "pitch": 50, "duration": 16, "velocity": 45, "start_time": 16}
+  ];
+}
+
+// Development section for Cosmic Background
+function getCosmicBackgroundDevelopmentNotes() {
+  return [
+    {"mute": false, "pitch": 43, "duration": 32, "velocity": 40, "start_time": 0},
+    {"mute": false, "pitch": 55, "duration": 32, "velocity": 35, "start_time": 0},
+    {"mute": false, "pitch": 60, "duration": 16, "velocity": 30, "start_time": 0},
+    {"mute": false, "pitch": 67, "duration": 16, "velocity": 25, "start_time": 0},
+    {"mute": false, "pitch": 62, "duration": 16, "velocity": 30, "start_time": 16},
+    {"mute": false, "pitch": 69, "duration": 16, "velocity": 25, "start_time": 16}
+  ];
+}
+
+// Culmination section for Cosmic Background
+function getCosmicBackgroundCulminationNotes() {
+  return [
+    {"mute": false, "pitch": 36, "duration": 32, "velocity": 50, "start_time": 0},
+    {"mute": false, "pitch": 48, "duration": 32, "velocity": 45, "start_time": 0},
+    {"mute": false, "pitch": 55, "duration": 16, "velocity": 40, "start_time": 0},
+    {"mute": false, "pitch": 60, "duration": 16, "velocity": 35, "start_time": 0},
+    {"mute": false, "pitch": 64, "duration": 16, "velocity": 30, "start_time": 0},
+    {"mute": false, "pitch": 52, "duration": 16, "velocity": 40, "start_time": 16},
+    {"mute": false, "pitch": 57, "duration": 16, "velocity": 35, "start_time": 16},
+    {"mute": false, "pitch": 60, "duration": 16, "velocity": 30, "start_time": 16}
+  ];
+}
+
+// Execute the composition
+createSpiralGalaxyCanon();
+  
