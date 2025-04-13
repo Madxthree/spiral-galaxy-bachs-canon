@@ -43,24 +43,55 @@ Each instrument represents a specific element of the spiral galaxy:
 ### Prerequisites
 
 - Ableton Live 12 (Trial version is sufficient)
-- Ableton MCP integration setup (see [ahujasid/ableton-mcp](https://github.com/ahujasid/ableton-mcp) for detailed setup)
-- Access to standard orchestral instrument packs:
+- Ableton Live standard orchestral instrument packs:
   - Orchestral Brass
   - Orchestral Mallets
   - Orchestral Strings
   - Orchestral Woodwinds
+- Claude for Desktop app
+- Ableton MCP integration installed (see [ahujasid/ableton-mcp](https://github.com/ahujasid/ableton-mcp))
 
 ### Setup
 
-1. Clone this repository
-2. Open Ableton Live
-3. Run the implementation script through the Ableton API or copy it into a script interface
-4. Call the `createSpiralGalaxyCanon()` function
+1. Install the Ableton MCP Remote Script:
+   - Download the `AbletonMCP_Remote_Script/__init__.py` file from [ahujasid/ableton-mcp](https://github.com/ahujasid/ableton-mcp)
+   - Create a folder called 'AbletonMCP' in Ableton's MIDI Remote Scripts directory and place the __init__.py file inside
+   - In Ableton Live, go to Settings/Preferences → Link, Tempo & MIDI
+   - Select "AbletonMCP" in the Control Surface dropdown
+   - Set Input and Output to "None"
 
-```javascript
-// Example usage
-createSpiralGalaxyCanon();
-```
+2. Configure Claude Desktop:
+   - Go to Claude > Settings > Developer > Edit Config > claude_desktop_config.json
+   - Include the following configuration:
+   ```json
+   {
+       "mcpServers": {
+           "AbletonMCP": {
+               "command": "uvx",
+               "args": [
+                   "ableton-mcp"
+               ]
+           }
+       }
+   }
+   ```
+
+3. Start Ableton Live
+
+4. Clone this repository to access the implementation code
+
+5. Execute the composition:
+   - Open Claude Desktop
+   - Copy the contents of `src/implementation.js` from this repository
+   - Paste it into Claude and ask it to execute the code
+   - The composition will be generated automatically in Ableton Live
+
+### Troubleshooting
+
+- If you see "Browser item with URI not found" errors, ensure all orchestral packs are properly installed in Ableton
+- Check that the AbletonMCP Remote Script is correctly loaded in Ableton Live
+- Restart both Claude Desktop and Ableton Live if connection issues occur
+- For more detailed guidance, refer to the [Ableton MCP Integration](docs/ableton-mcp-integration.md) document
 
 ## Mathematical Foundation
 
@@ -80,12 +111,12 @@ This pattern creates the characteristic spiral arms extending outward from the g
 
 ## Documentation
 
-- [Mathematical Analysis](docs/mathematical-analysis.md) - Detailed explanation of the mathematical principles used
-- [Implementation Guide](docs/implementation-guide.md) - Guide to implementing the composition
-- [Optimization Guide](docs/optimization-guide.md) - Information about the optimization process
+- [Mathematical Analysis](docs/math-analysis.md) - Detailed explanation of the mathematical principles used
 - [Ableton MCP Integration](docs/ableton-mcp-integration.md) - How the project uses Ableton MCP
-- [Orchestral Packs Guide](docs/orchestral-packs-guide.md) - Detailed information about required orchestral packs
+- [Optimization Guide](docs/optimization-guide.md) - Information about the optimization process
 - [Audio Comparison](docs/audio-comparison.md) - Comparison between original and optimized versions
+- [Orchestral Packs Guide](docs/orchestral-packs.md) - Detailed information about required orchestral packs
+
 
 ## Contributing
 
