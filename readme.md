@@ -111,12 +111,12 @@ This pattern creates the characteristic spiral arms extending outward from the g
 
 ## Documentation
 
-- [Mathematical Analysis](docs/mathematical-analysis.md) - Detailed explanation of the mathematical principles used
-- [Implementation Guide](docs/implementation-guide.md) - Guide to implementing the composition
-- [Optimization Guide](docs/optimization-guide.md) - Information about the optimization process
+- [Mathematical Analysis](docs/math-analysis.md) - Detailed explanation of the mathematical principles used
 - [Ableton MCP Integration](docs/ableton-mcp-integration.md) - How the project uses Ableton MCP
-- [Orchestral Packs Guide](docs/orchestral-packs-guide.md) - Detailed information about required orchestral packs
+- [Optimization Guide](docs/optimization-guide.md) - Information about the optimization process
 - [Audio Comparison](docs/audio-comparison.md) - Comparison between original and optimized versions
+- [Orchestral Packs Guide](docs/orchestral-packs.md) - Detailed information about required orchestral packs
+
 
 ## Contributing
 
