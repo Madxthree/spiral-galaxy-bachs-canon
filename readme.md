@@ -6,14 +6,14 @@ An experimental composition translating the mathematical structure of spiral gal
 
 ## Project Overview
 
-This project explores the intersection of astronomy, mathematics, and classical music by creating a direct mapping between the mathematical properties of spiral galaxies and the contrapuntal structure of Bach's canons. It leverages Ableton Live's MCP for programmatic control of the music creation process.
+This project explores the intersection of astronomy, mathematics, and classical music by creating a direct mapping between the mathematical properties of spiral galaxies and the contrapuntal structure of Bach's canons. It leverages [Ableton MCP](https://github.com/ahujasid/ableton-mcp) for programmatic control of the music creation process.
 
 ### Key Features
 
 - **Astronomical-Mathematical Connection**: Translates logarithmic spiral patterns into musical sequences
 - **Canonical Structure**: Implements Bach's canonical techniques within a three-part composition
 - **Golden Ratio Integration**: Uses the golden ratio (φ ≈ 1.618) for structural proportions
-- **Ableton Live Implementation**: Complete code for creating the composition in Ableton Live
+- - **Ableton Live Implementation**: Complete code for creating the composition in Ableton Live through [Ableton MCP](https://github.com/ahujasid/ableton-mcp) and Anthropic Claude AI
 
 ## Composition Structure
 
