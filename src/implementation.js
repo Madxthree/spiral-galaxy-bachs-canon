@@ -13,10 +13,6 @@
  * Developed and tested with:
  * - Ableton Live 12 Trial (Build: 2025-02-07_7b405e2e2b)
  * - Standard Ableton orchestral packs (Brass, Mallets, Strings, Woodwinds)
- * 
- * @author Your Name
- * @version 1.0.0
- * @license MIT
  */
 
 // Main function to set up and create the entire composition
@@ -313,38 +309,467 @@ function getGalacticCoreExpositionNotes() {
 
 // Development section for Galactic Core
 function getGalacticCoreDevelopmentNotes() {
-  // Returns development section notes
-  // For brevity, this implementation is shortened but in the full version
-  // would contain the complete development section note patterns
   return [
     {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 90, "start_time": 0},
     {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 80, "start_time": 0.5},
     {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 85, "start_time": 1},
     {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 75, "start_time": 1.5},
-    // Additional notes would be included in the full implementation
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 90, "start_time": 2},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 80, "start_time": 2.5},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 85, "start_time": 3},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 75, "start_time": 3.5},
+    {"mute": false, "pitch": 62, "duration": 0.5, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 69, "duration": 0.5, "velocity": 80, "start_time": 4.5},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 85, "start_time": 5},
+    {"mute": false, "pitch": 69, "duration": 0.5, "velocity": 75, "start_time": 5.5},
+    {"mute": false, "pitch": 62, "duration": 0.5, "velocity": 90, "start_time": 6},
+    {"mute": false, "pitch": 69, "duration": 0.5, "velocity": 80, "start_time": 6.5},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 85, "start_time": 7},
+    {"mute": false, "pitch": 69, "duration": 0.5, "velocity": 75, "start_time": 7.5},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 90, "start_time": 8},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 80, "start_time": 8.5},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 85, "start_time": 9},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 75, "start_time": 9.5},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 90, "start_time": 10},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 80, "start_time": 10.5},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 85, "start_time": 11},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 75, "start_time": 11.5},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 80, "start_time": 12.5},
+    {"mute": false, "pitch": 77, "duration": 0.5, "velocity": 85, "start_time": 13},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 75, "start_time": 13.5},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 90, "start_time": 14},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 80, "start_time": 14.5},
+    {"mute": false, "pitch": 77, "duration": 0.5, "velocity": 85, "start_time": 15},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 75, "start_time": 15.5},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 95, "start_time": 16},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 85, "start_time": 16.5},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 90, "start_time": 17},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 80, "start_time": 17.5},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 95, "start_time": 18},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 85, "start_time": 18.5},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 90, "start_time": 19},
+    {"mute": false, "pitch": 74, "duration": 0.5, "velocity": 80, "start_time": 19.5},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 90, "start_time": 20},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 80, "start_time": 20.5},
+    {"mute": false, "pitch": 77, "duration": 0.5, "velocity": 85, "start_time": 21},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 75, "start_time": 21.5},
+    {"mute": false, "pitch": 65, "duration": 0.5, "velocity": 90, "start_time": 22},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 80, "start_time": 22.5},
+    {"mute": false, "pitch": 77, "duration": 0.5, "velocity": 85, "start_time": 23},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 75, "start_time": 23.5},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 95, "start_time": 24},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 85, "start_time": 24.5},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 90, "start_time": 25},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 80, "start_time": 25.5},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 95, "start_time": 26},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 85, "start_time": 26.5},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 90, "start_time": 27},
+    {"mute": false, "pitch": 71, "duration": 0.5, "velocity": 80, "start_time": 27.5},
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 100, "start_time": 28},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 90, "start_time": 28.5},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 95, "start_time": 29},
+    {"mute": false, "pitch": 76, "duration": 0.5, "velocity": 85, "start_time": 29.5},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 100, "start_time": 30},
+    {"mute": false, "pitch": 84, "duration": 1.5, "velocity": 90, "start_time": 30.5}
   ];
 }
 
 // Culmination section for Galactic Core
 function getGalacticCoreCulminationNotes() {
-  // Returns culmination section notes
-  // For brevity, this implementation is shortened but in the full version
-  // would contain the complete culmination section note patterns
   return [
     {"mute": false, "pitch": 48, "duration": 4, "velocity": 100, "start_time": 0},
     {"mute": false, "pitch": 55, "duration": 4, "velocity": 95, "start_time": 0},
     {"mute": false, "pitch": 60, "duration": 4, "velocity": 95, "start_time": 0},
     {"mute": false, "pitch": 64, "duration": 4, "velocity": 95, "start_time": 0},
-    // Additional notes would be included in the full implementation
+    {"mute": false, "pitch": 50, "duration": 4, "velocity": 95, "start_time": 4},
+    {"mute": false, "pitch": 57, "duration": 4, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 62, "duration": 4, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 65, "duration": 4, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 52, "duration": 4, "velocity": 100, "start_time": 8},
+    {"mute": false, "pitch": 59, "duration": 4, "velocity": 95, "start_time": 8},
+    {"mute": false, "pitch": 64, "duration": 4, "velocity": 95, "start_time": 8},
+    {"mute": false, "pitch": 67, "duration": 4, "velocity": 95, "start_time": 8},
+    {"mute": false, "pitch": 53, "duration": 4, "velocity": 95, "start_time": 12},
+    {"mute": false, "pitch": 60, "duration": 4, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 65, "duration": 4, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 69, "duration": 4, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 55, "duration": 4, "velocity": 105, "start_time": 16},
+    {"mute": false, "pitch": 62, "duration": 4, "velocity": 100, "start_time": 16},
+    {"mute": false, "pitch": 67, "duration": 4, "velocity": 100, "start_time": 16},
+    {"mute": false, "pitch": 71, "duration": 4, "velocity": 100, "start_time": 16},
+    {"mute": false, "pitch": 53, "duration": 4, "velocity": 100, "start_time": 20},
+    {"mute": false, "pitch": 60, "duration": 4, "velocity": 95, "start_time": 20},
+    {"mute": false, "pitch": 65, "duration": 4, "velocity": 95, "start_time": 20},
+    {"mute": false, "pitch": 69, "duration": 4, "velocity": 95, "start_time": 20},
+    {"mute": false, "pitch": 52, "duration": 4, "velocity": 100, "start_time": 24},
+    {"mute": false, "pitch": 59, "duration": 4, "velocity": 95, "start_time": 24},
+    {"mute": false, "pitch": 64, "duration": 4, "velocity": 95, "start_time": 24},
+    {"mute": false, "pitch": 67, "duration": 4, "velocity": 95, "start_time": 24},
+    {"mute": false, "pitch": 48, "duration": 8, "velocity": 110, "start_time": 28},
+    {"mute": false, "pitch": 55, "duration": 8, "velocity": 105, "start_time": 28},
+    {"mute": false, "pitch": 60, "duration": 8, "velocity": 105, "start_time": 28},
+    {"mute": false, "pitch": 64, "duration": 8, "velocity": 105, "start_time": 28},
+    {"mute": false, "pitch": 67, "duration": 8, "velocity": 105, "start_time": 28},
+    {"mute": false, "pitch": 72, "duration": 8, "velocity": 105, "start_time": 28}
   ];
 }
 
-// Inner Spiral note pattern functions
-// Middle Spiral note pattern functions
-// Outer Spiral note pattern functions 
-// Star Clusters note pattern functions
-// Cosmic Background note pattern functions
-// These would be implemented similarly to the Galactic Core functions
+// --- INNER SPIRAL (STRINGS) NOTE PATTERNS ---
 
-// Execute the composition when this script is run
-createSpiralGalaxyCanon();
+// Exposition section for Inner Spiral
+function getInnerSpiralExpositionNotes() {
+  return [
+    {"mute": false, "pitch": 48, "duration": 8, "velocity": 60, "start_time": 0},
+    {"mute": false, "pitch": 52, "duration": 8, "velocity": 60, "start_time": 0},
+    {"mute": false, "pitch": 55, "duration": 8, "velocity": 60, "start_time": 0},
+    {"mute": false, "pitch": 50, "duration": 8, "velocity": 65, "start_time": 8},
+    {"mute": false, "pitch": 53, "duration": 8, "velocity": 65, "start_time": 8},
+    {"mute": false, "pitch": 57, "duration": 8, "velocity": 65, "start_time": 8},
+    {"mute": false, "pitch": 52, "duration": 8, "velocity": 70, "start_time": 16},
+    {"mute": false, "pitch": 55, "duration": 8, "velocity": 70, "start_time": 16},
+    {"mute": false, "pitch": 59, "duration": 8, "velocity": 70, "start_time": 16},
+    {"mute": false, "pitch": 48, "duration": 8, "velocity": 75, "start_time": 24},
+    {"mute": false, "pitch": 55, "duration": 8, "velocity": 75, "start_time": 24},
+    {"mute": false, "pitch": 60, "duration": 8, "velocity": 75, "start_time": 24}
+  ];
+}
+
+// Development section for Inner Spiral
+function getInnerSpiralDevelopmentNotes() {
+  return [
+    {"mute": false, "pitch": 36, "duration": 4, "velocity": 70, "start_time": 0},
+    {"mute": false, "pitch": 48, "duration": 4, "velocity": 65, "start_time": 0},
+    {"mute": false, "pitch": 55, "duration": 4, "velocity": 65, "start_time": 0},
+    {"mute": false, "pitch": 38, "duration": 4, "velocity": 70, "start_time": 4},
+    {"mute": false, "pitch": 50, "duration": 4, "velocity": 65, "start_time": 4},
+    {"mute": false, "pitch": 57, "duration": 4, "velocity": 65, "start_time": 4},
+    {"mute": false, "pitch": 40, "duration": 4, "velocity": 70, "start_time": 8},
+    {"mute": false, "pitch": 52, "duration": 4, "velocity": 65, "start_time": 8},
+    {"mute": false, "pitch": 59, "duration": 4, "velocity": 65, "start_time": 8},
+    {"mute": false, "pitch": 41, "duration": 4, "velocity": 70, "start_time": 12},
+    {"mute": false, "pitch": 53, "duration": 4, "velocity": 65, "start_time": 12},
+    {"mute": false, "pitch": 60, "duration": 4, "velocity": 65, "start_time": 12},
+    {"mute": false, "pitch": 43, "duration": 4, "velocity": 75, "start_time": 16},
+    {"mute": false, "pitch": 55, "duration": 4, "velocity": 70, "start_time": 16},
+    {"mute": false, "pitch": 62, "duration": 4, "velocity": 70, "start_time": 16},
+    {"mute": false, "pitch": 41, "duration": 4, "velocity": 75, "start_time": 20},
+    {"mute": false, "pitch": 53, "duration": 4, "velocity": 70, "start_time": 20},
+    {"mute": false, "pitch": 60, "duration": 4, "velocity": 70, "start_time": 20},
+    {"mute": false, "pitch": 40, "duration": 4, "velocity": 75, "start_time": 24},
+    {"mute": false, "pitch": 52, "duration": 4, "velocity": 70, "start_time": 24},
+    {"mute": false, "pitch": 59, "duration": 4, "velocity": 70, "start_time": 24},
+    {"mute": false, "pitch": 36, "duration": 4, "velocity": 80, "start_time": 28},
+    {"mute": false, "pitch": 48, "duration": 4, "velocity": 75, "start_time": 28},
+    {"mute": false, "pitch": 55, "duration": 4, "velocity": 75, "start_time": 28},
+    {"mute": false, "pitch": 60, "duration": 4, "velocity": 75, "start_time": 28}
+  ];
+}
+
+// Culmination section for Inner Spiral
+function getInnerSpiralCulminationNotes() {
+  return [
+    {"mute": false, "pitch": 36, "duration": 8, "velocity": 80, "start_time": 0},
+    {"mute": false, "pitch": 43, "duration": 8, "velocity": 75, "start_time": 0},
+    {"mute": false, "pitch": 48, "duration": 8, "velocity": 75, "start_time": 0},
+    {"mute": false, "pitch": 38, "duration": 8, "velocity": 80, "start_time": 8},
+    {"mute": false, "pitch": 45, "duration": 8, "velocity": 75, "start_time": 8},
+    {"mute": false, "pitch": 50, "duration": 8, "velocity": 75, "start_time": 8},
+    {"mute": false, "pitch": 40, "duration": 8, "velocity": 85, "start_time": 16},
+    {"mute": false, "pitch": 47, "duration": 8, "velocity": 80, "start_time": 16},
+    {"mute": false, "pitch": 52, "duration": 8, "velocity": 80, "start_time": 16},
+    {"mute": false, "pitch": 36, "duration": 4, "velocity": 90, "start_time": 24},
+    {"mute": false, "pitch": 43, "duration": 4, "velocity": 85, "start_time": 24},
+    {"mute": false, "pitch": 48, "duration": 4, "velocity": 85, "start_time": 24},
+    {"mute": false, "pitch": 38, "duration": 2, "velocity": 90, "start_time": 28},
+    {"mute": false, "pitch": 45, "duration": 2, "velocity": 85, "start_time": 28},
+    {"mute": false, "pitch": 50, "duration": 2, "velocity": 85, "start_time": 28},
+    {"mute": false, "pitch": 36, "duration": 2, "velocity": 95, "start_time": 30},
+    {"mute": false, "pitch": 43, "duration": 2, "velocity": 90, "start_time": 30},
+    {"mute": false, "pitch": 48, "duration": 2, "velocity": 90, "start_time": 30},
+    {"mute": false, "pitch": 55, "duration": 2, "velocity": 90, "start_time": 30}
+  ];
+}
+
+// --- MIDDLE SPIRAL (TRUMPETS) NOTE PATTERNS ---
+
+// Exposition section for Middle Spiral
+function getMiddleSpiralExpositionNotes() {
+  return [
+    {"mute": false, "pitch": 67, "duration": 1, "velocity": 85, "start_time": 4},
+    {"mute": false, "pitch": 64, "duration": 1, "velocity": 80, "start_time": 6},
+    {"mute": false, "pitch": 60, "duration": 1.5, "velocity": 90, "start_time": 8},
+    {"mute": false, "pitch": 69, "duration": 1, "velocity": 85, "start_time": 12},
+    {"mute": false, "pitch": 65, "duration": 1, "velocity": 80, "start_time": 14},
+    {"mute": false, "pitch": 62, "duration": 1.5, "velocity": 90, "start_time": 16},
+    {"mute": false, "pitch": 71, "duration": 1, "velocity": 85, "start_time": 20},
+    {"mute": false, "pitch": 67, "duration": 1, "velocity": 80, "start_time": 22},
+    {"mute": false, "pitch": 64, "duration": 1.5, "velocity": 95, "start_time": 24},
+    {"mute": false, "pitch": 72, "duration": 1, "velocity": 90, "start_time": 28},
+    {"mute": false, "pitch": 67, "duration": 1, "velocity": 85, "start_time": 30}
+  ];
+}
+
+// Development section for Middle Spiral
+function getMiddleSpiralDevelopmentNotes() {
+  return [
+    {"mute": false, "pitch": 55, "duration": 2, "velocity": 85, "start_time": 0},
+    {"mute": false, "pitch": 57, "duration": 2, "velocity": 80, "start_time": 2},
+    {"mute": false, "pitch": 55, "duration": 1, "velocity": 85, "start_time": 4},
+    {"mute": false, "pitch": 60, "duration": 3, "velocity": 90, "start_time": 5},
+    {"mute": false, "pitch": 57, "duration": 2, "velocity": 85, "start_time": 8},
+    {"mute": false, "pitch": 59, "duration": 2, "velocity": 80, "start_time": 10},
+    {"mute": false, "pitch": 57, "duration": 1, "velocity": 85, "start_time": 12},
+    {"mute": false, "pitch": 62, "duration": 3, "velocity": 90, "start_time": 13},
+    {"mute": false, "pitch": 59, "duration": 2, "velocity": 85, "start_time": 16},
+    {"mute": false, "pitch": 62, "duration": 2, "velocity": 85, "start_time": 18},
+    {"mute": false, "pitch": 59, "duration": 1, "velocity": 90, "start_time": 20},
+    {"mute": false, "pitch": 64, "duration": 3, "velocity": 95, "start_time": 21},
+    {"mute": false, "pitch": 62, "duration": 1, "velocity": 90, "start_time": 24},
+    {"mute": false, "pitch": 67, "duration": 1, "velocity": 95, "start_time": 25},
+    {"mute": false, "pitch": 64, "duration": 1, "velocity": 90, "start_time": 26},
+    {"mute": false, "pitch": 60, "duration": 1, "velocity": 85, "start_time": 27},
+    {"mute": false, "pitch": 55, "duration": 0.75, "velocity": 95, "start_time": 28},
+    {"mute": false, "pitch": 60, "duration": 0.75, "velocity": 95, "start_time": 28.75},
+    {"mute": false, "pitch": 64, "duration": 0.75, "velocity": 95, "start_time": 29.5},
+    {"mute": false, "pitch": 67, "duration": 1.75, "velocity": 100, "start_time": 30.25}
+  ];
+}
+
+// Culmination section for Middle Spiral
+function getMiddleSpiralCulminationNotes() {
+  return [
+    {"mute": false, "pitch": 60, "duration": 2, "velocity": 100, "start_time": 0},
+    {"mute": false, "pitch": 64, "duration": 2, "velocity": 95, "start_time": 0},
+    {"mute": false, "pitch": 67, "duration": 2, "velocity": 95, "start_time": 0},
+    {"mute": false, "pitch": 60, "duration": 2, "velocity": 95, "start_time": 4},
+    {"mute": false, "pitch": 64, "duration": 2, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 67, "duration": 2, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 62, "duration": 2, "velocity": 100, "start_time": 8},
+    {"mute": false, "pitch": 65, "duration": 2, "velocity": 95, "start_time": 8},
+    {"mute": false, "pitch": 69, "duration": 2, "velocity": 95, "start_time": 8},
+    {"mute": false, "pitch": 62, "duration": 2, "velocity": 95, "start_time": 12},
+    {"mute": false, "pitch": 65, "duration": 2, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 69, "duration": 2, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 64, "duration": 2, "velocity": 105, "start_time": 16},
+    {"mute": false, "pitch": 67, "duration": 2, "velocity": 100, "start_time": 16},
+    {"mute": false, "pitch": 71, "duration": 2, "velocity": 100, "start_time": 16},
+    {"mute": false, "pitch": 64, "duration": 2, "velocity": 100, "start_time": 20},
+    {"mute": false, "pitch": 67, "duration": 2, "velocity": 95, "start_time": 20},
+    {"mute": false, "pitch": 71, "duration": 2, "velocity": 95, "start_time": 20},
+    {"mute": false, "pitch": 60, "duration": 1, "velocity": 105, "start_time": 24},
+    {"mute": false, "pitch": 64, "duration": 1, "velocity": 100, "start_time": 24},
+    {"mute": false, "pitch": 67, "duration": 1, "velocity": 100, "start_time": 24},
+    {"mute": false, "pitch": 60, "duration": 1, "velocity": 95, "start_time": 26},
+    {"mute": false, "pitch": 64, "duration": 1, "velocity": 90, "start_time": 26},
+    {"mute": false, "pitch": 67, "duration": 1, "velocity": 90, "start_time": 26},
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 110, "start_time": 28},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 105, "start_time": 28},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 105, "start_time": 28},
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 105, "start_time": 29},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 100, "start_time": 29},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 100, "start_time": 29},
+    {"mute": false, "pitch": 60, "duration": 0.5, "velocity": 110, "start_time": 30},
+    {"mute": false, "pitch": 64, "duration": 0.5, "velocity": 105, "start_time": 30},
+    {"mute": false, "pitch": 67, "duration": 0.5, "velocity": 105, "start_time": 30},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 105, "start_time": 30},
+    {"mute": false, "pitch": 60, "duration": 1.5, "velocity": 115, "start_time": 30.5},
+    {"mute": false, "pitch": 64, "duration": 1.5, "velocity": 110, "start_time": 30.5},
+    {"mute": false, "pitch": 67, "duration": 1.5, "velocity": 110, "start_time": 30.5},
+    {"mute": false, "pitch": 72, "duration": 1.5, "velocity": 110, "start_time": 30.5}
+  ];
+}
+
+// --- OUTER SPIRAL (WOODWINDS) NOTE PATTERNS ---
+
+// Exposition section for Outer Spiral
+function getOuterSpiralExpositionNotes() {
+  return [
+    {"mute": false, "pitch": 72, "duration": 0.25, "velocity": 75, "start_time": 1},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 75, "start_time": 1.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 75, "start_time": 1.5},
+    {"mute": false, "pitch": 84, "duration": 0.5, "velocity": 80, "start_time": 1.75},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 70, "start_time": 2.25},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 70, "start_time": 2.5},
+    {"mute": false, "pitch": 72, "duration": 0.25, "velocity": 70, "start_time": 2.75},
+    {"mute": false, "pitch": 74, "duration": 0.25, "velocity": 75, "start_time": 9},
+    {"mute": false, "pitch": 77, "duration": 0.25, "velocity": 75, "start_time": 9.25},
+    {"mute": false, "pitch": 81, "duration": 0.25, "velocity": 75, "start_time": 9.5},
+    {"mute": false, "pitch": 86, "duration": 0.5, "velocity": 80, "start_time": 9.75},
+    {"mute": false, "pitch": 81, "duration": 0.25, "velocity": 70, "start_time": 10.25},
+    {"mute": false, "pitch": 77, "duration": 0.25, "velocity": 70, "start_time": 10.5},
+    {"mute": false, "pitch": 74, "duration": 0.25, "velocity": 70, "start_time": 10.75},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 75, "start_time": 17},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 75, "start_time": 17.25},
+    {"mute": false, "pitch": 83, "duration": 0.25, "velocity": 75, "start_time": 17.5},
+    {"mute": false, "pitch": 88, "duration": 0.5, "velocity": 80, "start_time": 17.75},
+    {"mute": false, "pitch": 83, "duration": 0.25, "velocity": 70, "start_time": 18.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 70, "start_time": 18.5},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 70, "start_time": 18.75},
+    {"mute": false, "pitch": 72, "duration": 0.25, "velocity": 80, "start_time": 25},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 80, "start_time": 25.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 80, "start_time": 25.5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 85, "start_time": 25.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 85, "start_time": 26},
+    {"mute": false, "pitch": 91, "duration": 0.5, "velocity": 90, "start_time": 26.25},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 75, "start_time": 26.75},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 27},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 75, "start_time": 27.25},
+    {"mute": false, "pitch": 76, "duration": 0.25, "velocity": 75, "start_time": 27.5},
+    {"mute": false, "pitch": 72, "duration": 0.25, "velocity": 75, "start_time": 27.75}
+  ];
+}
+
+// Development section for Outer Spiral
+function getOuterSpiralDevelopmentNotes() {
+  return [
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 70, "start_time": 0.5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 0.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 1},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 1.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 70, "start_time": 1.5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 1.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 2},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 2.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 70, "start_time": 4.5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 4.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 5.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 70, "start_time": 5.5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 5.75},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 80, "start_time": 6},
+    {"mute": false, "pitch": 82, "duration": 0.25, "velocity": 75, "start_time": 6.25},
+    {"mute": false, "pitch": 81, "duration": 0.25, "velocity": 70, "start_time": 8.5},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 75, "start_time": 8.75},
+    {"mute": false, "pitch": 90, "duration": 0.25, "velocity": 80, "start_time": 9},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 75, "start_time": 9.25},
+    {"mute": false, "pitch": 81, "duration": 0.25, "velocity": 70, "start_time": 9.5},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 75, "start_time": 9.75},
+    {"mute": false, "pitch": 90, "duration": 0.25, "velocity": 80, "start_time": 10},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 75, "start_time": 10.25},
+    {"mute": false, "pitch": 81, "duration": 0.25, "velocity": 70, "start_time": 12.5},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 75, "start_time": 12.75},
+    {"mute": false, "pitch": 90, "duration": 0.25, "velocity": 80, "start_time": 13},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 75, "start_time": 13.25},
+    {"mute": false, "pitch": 81, "duration": 0.25, "velocity": 70, "start_time": 13.5},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 75, "start_time": 13.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 14},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 75, "start_time": 14.25},
+    {"mute": false, "pitch": 83, "duration": 0.25, "velocity": 75, "start_time": 16.5},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 16.75},
+    {"mute": false, "pitch": 91, "duration": 0.25, "velocity": 85, "start_time": 17},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 17.25},
+    {"mute": false, "pitch": 83, "duration": 0.25, "velocity": 75, "start_time": 17.5},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 17.75},
+    {"mute": false, "pitch": 91, "duration": 0.25, "velocity": 85, "start_time": 18},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 18.25},
+    {"mute": false, "pitch": 83, "duration": 0.25, "velocity": 75, "start_time": 20.5},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 20.75},
+    {"mute": false, "pitch": 91, "duration": 0.25, "velocity": 85, "start_time": 21},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 21.25},
+    {"mute": false, "pitch": 83, "duration": 0.25, "velocity": 75, "start_time": 21.5},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 80, "start_time": 21.75},
+    {"mute": false, "pitch": 90, "duration": 0.25, "velocity": 85, "start_time": 22},
+    {"mute": false, "pitch": 86, "duration": 0.25, "velocity": 80, "start_time": 22.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 80, "start_time": 24.5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 85, "start_time": 24.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 90, "start_time": 25},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 85, "start_time": 25.25},
+    {"mute": false, "pitch": 79, "duration": 0.25, "velocity": 80, "start_time": 25.5},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 85, "start_time": 25.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 90, "start_time": 26},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 85, "start_time": 26.25},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 85, "start_time": 28.5},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 90, "start_time": 28.625},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 95, "start_time": 28.75},
+    {"mute": false, "pitch": 91, "duration": 0.125, "velocity": 100, "start_time": 28.875},
+    {"mute": false, "pitch": 95, "duration": 0.125, "velocity": 105, "start_time": 29},
+    {"mute": false, "pitch": 91, "duration": 0.125, "velocity": 100, "start_time": 29.125},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 95, "start_time": 29.25},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 90, "start_time": 29.375},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 85, "start_time": 29.5},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 90, "start_time": 29.625},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 95, "start_time": 29.75},
+    {"mute": false, "pitch": 91, "duration": 0.125, "velocity": 100, "start_time": 29.875},
+    {"mute": false, "pitch": 95, "duration": 0.125, "velocity": 105, "start_time": 30},
+    {"mute": false, "pitch": 98, "duration": 0.125, "velocity": 110, "start_time": 30.125},
+    {"mute": false, "pitch": 96, "duration": 0.25, "velocity": 100, "start_time": 30.25},
+    {"mute": false, "pitch": 93, "duration": 0.25, "velocity": 95, "start_time": 30.5},
+    {"mute": false, "pitch": 91, "duration": 0.25, "velocity": 90, "start_time": 30.75},
+    {"mute": false, "pitch": 88, "duration": 0.25, "velocity": 85, "start_time": 31},
+    {"mute": false, "pitch": 84, "duration": 0.25, "velocity": 80, "start_time": 31.25},
+    {"mute": false, "pitch": 79, "duration": 0.5, "velocity": 75, "start_time": 31.5}
+  ];
+}
+
+// Culmination section for Outer Spiral
+function getOuterSpiralCulminationNotes() {
+  return [
+    {"mute": false, "pitch": 72, "duration": 0.125, "velocity": 90, "start_time": 0},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 90, "start_time": 0.125},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 90, "start_time": 0.25},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 95, "start_time": 0.375},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 90, "start_time": 0.5},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 90, "start_time": 0.625},
+    {"mute": false, "pitch": 72, "duration": 0.125, "velocity": 90, "start_time": 0.75},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 90, "start_time": 0.875},
+    {"mute": false, "pitch": 72, "duration": 0.125, "velocity": 90, "start_time": 4},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 90, "start_time": 4.125},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 90, "start_time": 4.25},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 95, "start_time": 4.375},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 90, "start_time": 4.5},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 90, "start_time": 4.625},
+    {"mute": false, "pitch": 72, "duration": 0.125, "velocity": 90, "start_time": 4.75},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 90, "start_time": 4.875},
+    {"mute": false, "pitch": 74, "duration": 0.125, "velocity": 90, "start_time": 8},
+    {"mute": false, "pitch": 77, "duration": 0.125, "velocity": 90, "start_time": 8.125},
+    {"mute": false, "pitch": 81, "duration": 0.125, "velocity": 90, "start_time": 8.25},
+    {"mute": false, "pitch": 86, "duration": 0.125, "velocity": 95, "start_time": 8.375},
+    {"mute": false, "pitch": 81, "duration": 0.125, "velocity": 90, "start_time": 8.5},
+    {"mute": false, "pitch": 77, "duration": 0.125, "velocity": 90, "start_time": 8.625},
+    {"mute": false, "pitch": 74, "duration": 0.125, "velocity": 90, "start_time": 8.75},
+    {"mute": false, "pitch": 77, "duration": 0.125, "velocity": 90, "start_time": 8.875},
+    {"mute": false, "pitch": 74, "duration": 0.125, "velocity": 90, "start_time": 12},
+    {"mute": false, "pitch": 77, "duration": 0.125, "velocity": 90, "start_time": 12.125},
+    {"mute": false, "pitch": 81, "duration": 0.125, "velocity": 90, "start_time": 12.25},
+    {"mute": false, "pitch": 86, "duration": 0.125, "velocity": 95, "start_time": 12.375},
+    {"mute": false, "pitch": 81, "duration": 0.125, "velocity": 90, "start_time": 12.5},
+    {"mute": false, "pitch": 77, "duration": 0.125, "velocity": 90, "start_time": 12.625},
+    {"mute": false, "pitch": 74, "duration": 0.125, "velocity": 90, "start_time": 12.75},
+    {"mute": false, "pitch": 77, "duration": 0.125, "velocity": 90, "start_time": 12.875},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 95, "start_time": 16},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 95, "start_time": 16.125},
+    {"mute": false, "pitch": 83, "duration": 0.125, "velocity": 95, "start_time": 16.25},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 100, "start_time": 16.375},
+    {"mute": false, "pitch": 83, "duration": 0.125, "velocity": 95, "start_time": 16.5},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 95, "start_time": 16.625},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 95, "start_time": 16.75},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 95, "start_time": 16.875},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 95, "start_time": 20},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 95, "start_time": 20.125},
+    {"mute": false, "pitch": 83, "duration": 0.125, "velocity": 95, "start_time": 20.25},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 100, "start_time": 20.375},
+    {"mute": false, "pitch": 83, "duration": 0.125, "velocity": 95, "start_time": 20.5},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 95, "start_time": 20.625},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 95, "start_time": 20.75},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 95, "start_time": 20.875},
+    {"mute": false, "pitch": 72, "duration": 0.125, "velocity": 100, "start_time": 24},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 100, "start_time": 24.125},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 100, "start_time": 24.25},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 105, "start_time": 24.375},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 105, "start_time": 24.5},
+    {"mute": false, "pitch": 91, "duration": 0.125, "velocity": 105, "start_time": 24.625},
+    {"mute": false, "pitch": 96, "duration": 0.125, "velocity": 110, "start_time": 24.75},
+    {"mute": false, "pitch": 91, "duration": 0.125, "velocity": 105, "start_time": 24.875},
+    {"mute": false, "pitch": 88, "duration": 0.125, "velocity": 105, "start_time": 25},
+    {"mute": false, "pitch": 84, "duration": 0.125, "velocity": 100, "start_time": 25.125},
+    {"mute": false, "pitch": 79, "duration": 0.125, "velocity": 100, "start_time": 25.25},
+    {"mute": false, "pitch": 76, "duration": 0.125, "velocity": 100, "start_time": 25.375},
+    {"mute": false, "pitch": 72, "duration": 0.5, "velocity": 95, "start_time": 25.5},
+    {"mute": false, "pitch": 76, "duration": 1, "velocity": 110, "start_time": 28},
+    {"mute": false, "pitch": 79, "duration": 1, "velocity": 110, "start_time": 28.5},
+    {"mute": false, "pitch": 84, "duration": 1, "velocity": 115, "start_time": 29},
+    {"mute": false, "pitch": 88, "duration": 1, "velocity": 115, "start_time": 29.5},
+    {"mute": false, "pitch": 91, "duration": 1, "velocity": 120, "start_time": 30},
+    {"mute": false, "pitch": 96, "duration": 1, "velocity": 120, "start_time": 30.5},
+    {"mute": false, "pitch": 91, "duration": 0.5, "velocity": 110, "start_time": 31.5}
