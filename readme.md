@@ -25,9 +25,9 @@ This project explores the intersection of astronomy, mathematics, and classical 
 
 The composition is divided into three sections:
 
-1. **Exposition (0:00-0:35)**: Introduces the main theme with the basic spiral pattern
-2. **Development (0:35-1:10)**: Explores variations with increased complexity
-3. **Culmination (1:10-1:45)**: Reaches maximum density and harmonic richness
+1. **Exposition (0:00-0:25)**: Introduces the main theme with the basic spiral pattern
+2. **Development (0:25-0:50)**: Explores variations with increased complexity
+3. **Culmination (0:50-1:20)**: Reaches maximum density and harmonic richness
 
 Each instrument represents a specific element of the spiral galaxy:
 
@@ -85,49 +85,3 @@ Each instrument represents a specific element of the spiral galaxy:
    - Copy the contents of `src/implementation.js` from this repository
    - Paste it into Claude and ask it to execute the code
    - The composition will be generated automatically in Ableton Live
-
-### Troubleshooting
-
-- If you see "Browser item with URI not found" errors, ensure all orchestral packs are properly installed in Ableton
-- Check that the AbletonMCP Remote Script is correctly loaded in Ableton Live
-- Restart both Claude Desktop and Ableton Live if connection issues occur
-- For more detailed guidance, refer to the [Ableton MCP Integration](docs/ableton-mcp-integration.md) document
-
-## Mathematical Foundation
-
-The composition is based on the logarithmic spiral formula:
-
-```
-r = a·e^(b·θ)
-```
-
-Where:
-- r is the radius from the center
-- θ is the angle
-- a and b are constants that determine the shape of the spiral
-- e is the base of natural logarithms
-
-This pattern creates the characteristic spiral arms extending outward from the galactic center, with each arm maintaining the same shape as it rotates around the center.
-
-## Documentation
-
-- [Mathematical Analysis](docs/math-analysis.md) - Detailed explanation of the mathematical principles used
-- [Ableton MCP Integration](docs/ableton-mcp-integration.md) - How the project uses Ableton MCP
-- [Optimization Guide](docs/optimization-guide.md) - Information about the optimization process
-- [Audio Comparison](docs/audio-comparison.md) - Comparison between original and optimized versions
-- [Orchestral Packs Guide](docs/orchestral-packs.md) - Detailed information about required orchestral packs
-
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Johann Sebastian Bach, for his timeless canonical techniques
-- The mathematical beauty of spiral galaxies
-- Ableton Live for making this implementation possible
