@@ -61,6 +61,8 @@ Listen to the composition evolution:
 
 ## Installation & Usage
 
+The following setup allows for experiencing the composition firsthand and observing how mathematical principles of spiral galaxies translate into Bach's musical structures through code. Running this implementation demonstrates Ableton MCP in action as it executes the programmatic instructions that transform cosmic mathematics into musical expression.
+
 ### Prerequisites
 
 - Ableton Live 12 (Trial version is sufficient)
