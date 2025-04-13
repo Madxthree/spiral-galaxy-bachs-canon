@@ -1,6 +1,6 @@
 # Spiral Galaxy as Bach's Canon
 
-An experimental composition translating the mathematical structure of spiral galaxies into musical form using Bach's canonical techniques. Implemented with Ableton Live through the Ableton MCP (Model Context Protocol).
+An experimental composition translating the mathematical structure of spiral galaxies into musical form using Bach's canonical techniques. Implemented with Ableton Live through the [Ableton MCP](https://github.com/ahujasid/ableton-mcp) (Model Context Protocol).
 
 ![Spiral Galaxy](assets/SpiralGalaxy_00012.png)
 
@@ -13,7 +13,7 @@ This project explores the intersection of astronomy, mathematics, and classical 
 - **Astronomical-Mathematical Connection**: Translates logarithmic spiral patterns into musical sequences
 - **Canonical Structure**: Implements Bach's canonical techniques within a three-part composition
 - **Golden Ratio Integration**: Uses the golden ratio (φ ≈ 1.618) for structural proportions
-- - **Ableton Live Implementation**: Complete code for creating the composition in Ableton Live through [Ableton MCP](https://github.com/ahujasid/ableton-mcp) and Anthropic Claude AI
+- **Ableton Live Implementation**: Complete code for creating the composition in Ableton Live through [Ableton MCP](https://github.com/ahujasid/ableton-mcp) and Anthropic Claude AI
 
 ## Composition Structure
 
