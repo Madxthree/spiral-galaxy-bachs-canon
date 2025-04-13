@@ -57,7 +57,7 @@ The final optimized version maintains mathematical precision while significantly
 
 Listen to the composition evolution:
 - [Original Version (Pre-optimization)](https://soundcloud.com/evgeny-kalachihin/mcp_bach_milkywayspiral_experi/s-MiV1jP0UQVO?si=a370782985714a71a3f2333bfe744b3b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
-- [Final Version (Post-optimization)](https://soundcloud.com/evgeny-kalachihin/mcp_bach_milkywayspiral_expe-1/s-xKfL2xo4PWW?si=55b638758fa0467da9cc60ae467fe05c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
+- [Final Version (Post-optimization)](https://soundcloud.com/evgeny-kalachihin/spiral-galaxy-bachs-canon-experiment-optimized/s-twYUxiVoATl?si=6af4b84ccbd24dff8c598f9271aa0d5d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 
 ## Installation & Usage
 
