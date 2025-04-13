@@ -2,7 +2,7 @@
 
 An experimental composition translating the mathematical structure of spiral galaxies into musical form using Bach's canonical techniques. Implemented with Ableton Live through the Ableton MCP (Model Context Protocol).
 
-![Spiral Galaxy](assets/spiral-galaxy-banner.jpg)
+![Spiral Galaxy](assets/SpiralGalaxy_00012.png)
 
 ## Project Overview
 
