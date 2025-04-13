@@ -13,7 +13,7 @@ This recording represents our first implementation of the concept, before code o
 - Each section (Exposition, Development, Culmination) as separate clips
 
 ### Final Version (Post-optimization)
-[Listen on SoundCloud](https://soundcloud.com/evgeny-kalachihin/mcp_bach_milkywayspiral_expe-1/s-xKfL2xo4PWW?si=55b638758fa0467da9cc60ae467fe05c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
+[Listen on SoundCloud](https://soundcloud.com/evgeny-kalachihin/spiral-galaxy-bachs-canon-experiment-optimized/s-twYUxiVoATl?si=6af4b84ccbd24dff8c598f9271aa0d5d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 
 This recording demonstrates the fully optimized implementation, featuring:
 - Enhanced integration between sections
