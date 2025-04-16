@@ -125,6 +125,10 @@ Our composition applies the following mappings:
 4. **Density Variations → Rhythmic Density**: Areas of higher stellar density translate to more notes per measure
 5. **Logarithmic Growth → Augmentation**: The exponential growth of the spiral translates to proportional rhythmic expansion
 
+![Mapping Spiral Galaxy Structure to Bach's Canon](../assets/Graphs/spiral_galaxy_to_bach_mapping.svg)
+
+*Figure 5: Comprehensive visualization of the mapping between spiral galaxy structure and Bach's canonical form. The upper section shows the spiral galaxy with four distinct arms color-coded to match the corresponding instrumental voices in Bach's canon (lower section). The middle section details the mathematical relationships between astronomical parameters and musical elements.*
+
 ## 7. Mathematical Analysis of the Composition
 
 ### 7.1 Exposition Section
@@ -156,7 +160,7 @@ The Culmination section brings all mathematical elements to their fullest expres
 
 ![Musical Translation of Spiral Galaxy Structure](../assets/Graphs/spiral_galaxy_pitch_mapping_improved.png)
 
-*Figure 5: Musical Translation of Spiral Galaxy Structure showing the pitch mappings for each instrument group (Piano, Strings, Brass, Woodwinds, Vibraphone, Pad) throughout the entire composition. The vertical axis represents pitch, and the horizontal axis represents time progression.*
+*Figure 6: Musical Translation of Spiral Galaxy Structure showing the pitch mappings for each instrument group (Piano, Strings, Brass, Woodwinds, Vibraphone, Pad) throughout the entire composition. The vertical axis represents pitch, and the horizontal axis represents time progression.*
 
 ## 8. Conclusion
 
@@ -164,6 +168,6 @@ The mathematical structure of spiral galaxies provides a rich framework for musi
 
 ![Density Wave Music](../assets/Graphs/density_wave_music_improved.png)
 
-*Figure 6: Final representation of Density Wave Theory in musical form. This visualization shows how the compression and rarefaction of matter in spiral galaxy arms translates to note density, timbre, and dynamics across the composition's timespan.*
+*Figure 7: Final representation of Density Wave Theory in musical form. This visualization shows how the compression and rarefaction of matter in spiral galaxy arms translates to note density, timbre, and dynamics across the composition's timespan.*
 
 This approach demonstrates that there are deep connections between the mathematical patterns that govern the cosmos and those that create aesthetically pleasing musical structures, suggesting an underlying unity between scientific and artistic domains.
